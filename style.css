@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: "inter";
+    font-size: 14px;
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 800px;
+    background: white;
+    margin: auto;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 12%);
+}
+
+
+.container img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    font-size: 24px;
+    color: white;
+    background: none;
+    margin: 10px;
+}
+
+.container h3 {
+    font-size: 18px;
+    background: none;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 14px;
+    color: white;
+    background: none;
+    margin-bottom: 15px;
+}
+
+.github,
+.linkedin,
+.facebook,
+.instagram,
+.gmail {
+    width: 350px;
+    height: 50px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+
+.github a,
+.linkedin a,
+.facebook a,
+.instagram a,
+.gmail a {
+    color: white;
+    text-decoration: none;
+}
